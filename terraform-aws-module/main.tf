@@ -4,7 +4,7 @@ terraform {
 
 resource "aws_instance" "ec2_example" {
 
-    ami = "ami-0729e439b6769d6ab"
+    ami = "ami-0960ab670c8bb45f3"
     instance_type = "t2.micro"
     
 }
