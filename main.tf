@@ -4,6 +4,7 @@ access_key  = "AKIAWULY2HIYCWVHQRMT"
 secret_key = "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"
 }
 
-module "create-ec2" {
-  source = "/home/ubuntu/terraform/module/"
+module "terraform-aws-module" {
+  source  = "spacelift.io/yeshwanth351/terraform-aws-module/aws"
+  version = "0.1.0"
 }
