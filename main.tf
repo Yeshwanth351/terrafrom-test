@@ -1,7 +1,7 @@
 provider "aws" {
 region = "us-east-2"
-access_key  = "AKIAWULY2HIYCWVHQRMT"
-secret_key = "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"
+access_key  = "AKIAX5WIIHNELXRKO4FC"
+secret_key = "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"
 }
 
 module "terraform-aws-module-2" {
